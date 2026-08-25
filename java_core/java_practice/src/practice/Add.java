@@ -2,7 +2,7 @@ package practice;
 
  class Number {
 
-	void show () {
+	 void show () {
 	System.out.println("hello");
 	}
 }
