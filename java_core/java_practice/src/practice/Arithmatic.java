@@ -43,11 +43,12 @@ int p=50,q=60;
  
  System.out.println("----------");
  //logical boolean
- boolean o=((p>q)&&(p<q));
+ boolean o=((p>q)&&(p<q)
  boolean r=((p<q)||(p>q));
  System.out.println(o);
  System.out.println(r);
  boolean w=((p<q)&(p<q));
  System.out.println(w);
+	
 	}
 	}

@@ -2,18 +2,16 @@ package practice;
 
 public class Unary {
 
-	
-	int num;
 	public static void main (String args[]){
-		//int num=20;         //19+19+20
-		//System.out.println(--num+num+++num--);
+		int num1=20;         //19+19+20
+		System.out.println(--num1 + num1++ + num1--);
 		
-		//int num=50;
+		int num2=50;
 		               //   50+51+53
-		//System.out.println(num++ + num++ + ++num);
+		System.out.println(num2++ + num2++ + ++num2);
 		
-		//int num=15;     //15-17+17
-		//System.out.println(num++-++num+num--);
+		int num3=15;     //15-17+17
+		System.out.println(num3++ - ++num3 +num3--);
 		
 		//int num=100,x;//101+102+103+104
 		/*x=num++;//x 100,n=101
@@ -25,8 +23,8 @@ public class Unary {
 		
 		//System.out.println(num++ + ++num + num++ + num++);
 	
-	//int num=30;       //30+30+31
-	//System.out.println(num-- + ++num + ++ num); 
+	int num4=30;       //30+30+31
+	System.out.println(num4-- + ++num4 + ++ num4); 
 	
 	
 	

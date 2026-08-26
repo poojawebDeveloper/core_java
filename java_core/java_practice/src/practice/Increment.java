@@ -18,6 +18,10 @@ public class Increment {
      
      int num4=200;     //200-202+202-202+202-204
      System.out.println(num4++ - ++num4 + num4-- - ++num4 + num4++ - ++num4);
+     
+     int num5=20;
+     System.out.println(++num5 + num5-- + --num5 + ++num5);
+	
 	}
 
 }
