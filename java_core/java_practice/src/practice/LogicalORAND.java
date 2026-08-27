@@ -12,7 +12,7 @@ public class LogicalORAND {
 		System.out.println(num>num1&&num<num1);//false
 		System.out.println(num1<num&&num!=num1);//true
 		System.out.println(num>=num1&&num<=num1);//false
-		System.out.println(num1<=num&&num>=num1);
+		System.out.println(num1<=num&&num>=num1);//true
 	}
 	
 
