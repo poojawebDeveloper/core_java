@@ -7,8 +7,9 @@ public class CombineORAND {
 
 		System.out.println(true||false&&true||false||true||false);//true
 		                        
-		System.out.println(true&&false||true||false&&true&&true&&false);;
+		System.out.println(true&&false||true||false&&true&&true&&false);
 		
+		System.out.println(true&&false||false&&true&&true&&false);
 		
 	}
 
