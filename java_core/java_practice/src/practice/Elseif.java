@@ -3,7 +3,7 @@ package practice;
 public class Elseif {
 
 	public static void main(String[] args) {
-		int num=102;
+		int num=100;
 		
 		if(num%2==0&&num%3==0) {
 			System.out.println("2,3");
