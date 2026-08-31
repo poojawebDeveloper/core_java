@@ -1,16 +1,12 @@
 package practice;
 
-public class Explicity {
+public class Casting2 {
 
 	public static void main(String[] args) {
-		double d=10.5;
-		int a=(int)d;
+		double d=50.56;
+		int a =(int) d;
 		
 		System.out.println(a);
-		
-		
-		
-		
-}
+	}
 
 }
