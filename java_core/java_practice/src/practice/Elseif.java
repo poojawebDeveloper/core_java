@@ -1,0 +1,30 @@
+package practice;
+
+public class Elseif {
+
+	public static void main(String[] args) {
+		int num=102;
+		
+		if(num%2==0&&num%3==0) {
+			System.out.println("2,3");
+	        }
+		else if(num%4==0&&num%5==0)
+		{
+			System.out.println("4,5");
+		}
+		else if(num%6==0&&num%7==0)
+		{
+			System.out.println("6,7");
+		}
+		else if(num%8==0&&num%9==0)
+		{
+			System.out.println("8,9");
+		}
+		else
+		{
+			System.out.println("no pair available");
+		}
+	}
+	
+
+}
