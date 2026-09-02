@@ -3,16 +3,15 @@ package practice;
 public class digit {
 
 	public static void main(String[] args) {
-		int num=15483675646;
+		long num=15483675646l;
 		int count=0;
-		while(num==count)
+		while(num!=0)
 		{
-			if(num==count)
-			{
+	      num=num/10;
 				count++;
-			}
-			System.out.println(num);
+		}
+			System.out.println(count);
 		}
 	}
 
-}
+
