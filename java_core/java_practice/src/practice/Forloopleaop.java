@@ -1,10 +1,10 @@
 package practice;
 
-public class Whileloop4 {
+public class Forloopleaop {
 
 	public static void main(String[] args) {
-		int num=1;
-		
+		// TODO Auto-generated method stub
+
 	}
 
 }

@@ -1,18 +1,16 @@
 package practice;
 
-public class Whilemul {
+public class Digitsum {
 
 	public static void main(String[] args) {
-		int num=2;
-		int sum=1;
-		while(num<=10)
+		int num=1234;
+		int sum=0;
+		while(num==0)
 		{
-			sum=sum*num;
-			num++;
-			
+			sum=num%10;
+			sum=sum+num;
 		}
 		System.out.println(sum);
-
 	}
 
 }

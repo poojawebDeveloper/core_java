@@ -1,20 +1,19 @@
 package practice;
 
-public class While {
+public class Whileloop10 {
 
 	public static void main(String[] args) {
 		int num=1;
 		int counter=0;
-		while(num<100)
+		while(num<=100)
 		{
-			if(num%2==0&&num%3==0)
+			if(num%3==0)
 			{
-				counter++;
-				System.out.println(num);
+			System.out.println(num);
+			counter++;
 			}
 			num++;
 		}
-		System.out.println("count the value");
 		System.out.println(counter);
 	}
 
