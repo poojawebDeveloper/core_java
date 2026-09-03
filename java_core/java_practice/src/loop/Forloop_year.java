@@ -5,6 +5,7 @@ public class Forloop_year {
 	public static void main(String[] args) {
 		
 		int year;
+		int counter=0;
 	
 
 		for(year=1950;year<=2026;year++)
@@ -12,6 +13,7 @@ public class Forloop_year {
 			if(year%4==0)
 			{
 				System.out.println("leap year" + year);
+				counter++;
 			}
 			else
 			{
@@ -21,8 +23,7 @@ public class Forloop_year {
 			
 		}
 		
-		
-		
+		System.out.println(counter);
 	}
 
 }
