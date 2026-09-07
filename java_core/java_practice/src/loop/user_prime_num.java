@@ -1,12 +1,14 @@
 package loop;
+import java.util.Scanner;
 
-public class single_prime_num {
+public class user_prime_num {
 
 	public static void main(String[] args) {
 
-		int num=86;
+	int num=86;
 		
 		boolean flag=false;
+		
 		for(int i=2;i<85;i++)
 		{
 			if(num%i==0)
@@ -20,7 +22,7 @@ public class single_prime_num {
 		}
 		else
 		{
-			System.out.println(num+":composite");
+			System.out.println("composite");
 		}
 	}
 
