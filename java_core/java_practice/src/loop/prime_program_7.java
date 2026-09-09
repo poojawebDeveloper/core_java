@@ -10,7 +10,7 @@ public class prime_program_7 {
 		System.out.println("enter number");
         int n=sc.nextInt();
         int n1=sc.nextInt();
-     for(int i=n;i<=n1;i++)
+     for(int i=1;i<=n1;i++)
      {
     	 boolean flag=false;
     	 for(int j=2;j<i;j++)

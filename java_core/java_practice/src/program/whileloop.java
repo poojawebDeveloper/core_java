@@ -16,7 +16,7 @@ public class whileloop {
 			}
 			num++;
 		}
-		System.out.println("sum"+sum);
+		System.out.println("sum:"+sum);
 	}
 
 }

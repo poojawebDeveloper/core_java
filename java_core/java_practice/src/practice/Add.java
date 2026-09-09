@@ -2,7 +2,7 @@ package practice;
 
  class Number {
 
-	 void show () {
+	static void show () {
 	System.out.println("hello");
 	}
 }
@@ -14,7 +14,7 @@ package practice;
 	public static void main(String[] args) {
 		
 		Add a1 =new Add();
-		a1.show();
+		Number.show();
 		a1.a=4;
 		a1.b=2;
 		a1.c=a1.a+a1.b;

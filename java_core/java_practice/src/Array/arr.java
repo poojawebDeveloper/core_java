@@ -12,6 +12,7 @@ public class arr {
 		arr[3]=40;
 		arr[4]=50;
 		
+	
 		System.out.println(arr[0]+2);
 		System.out.println(arr[1]*3);
 		System.out.println(arr[2]-4);
