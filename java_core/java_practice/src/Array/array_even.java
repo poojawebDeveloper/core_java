@@ -7,21 +7,15 @@ public class array_even {
 
 		int arr []=new int [100];
 		
-		for(int i=0;i<arr.length;i++)
+		for(int i=1;i<arr.length;i++)
 		{
 			arr[i]=i;
 			
-			if(i%2==0)
+			if(arr[i]%2==0)
 			{
 				System.out.println(arr[i]);
 			}
 		}
-		
-		/*for(int i=0;i<arr.length;i++)
-		{
-			System.out.println(arr[i]);
-			
-		}*/
 		
 	}
 
