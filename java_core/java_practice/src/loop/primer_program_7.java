@@ -9,9 +9,9 @@ public class primer_program_7 {
 		System.out.println("enter the counter");
 		int c1=sc.nextInt();
 		int num=3;
-		int counter=1;
+		int counter=0;
 		
-		while(counter<=c1)
+		while(counter<c1)
 		{
 			boolean flag=false;
 			for(int i=2;i<num;i++)
