@@ -14,8 +14,8 @@ public class array_odd {
 				sum=sum+arr[i];
 			}
 		}
-		System.out.println("odd of sum");
-		System.out.println(sum);
+		System.out.println("odd of sum:"+sum);
+
 	}
 
 }
