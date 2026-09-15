@@ -9,7 +9,7 @@ public class array_prime_sum {
 	for(int i=0;i<arr.length;i++) 
 	{
 		boolean flag=false;
-		for(int j=2;j<i;j++)
+		for(int j=2;j<arr[i];j++)
 		{
 			if(arr[i]%j==0)
 			{
