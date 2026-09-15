@@ -11,16 +11,14 @@ public class largest_even {
 		{
 			if(arr[i]%2==0)
 			{
-				System.out.println(arr[i]);
-				
-			}
-		
-			if(arr[i]>lowest)
+		        System.out.println(arr[i]);
+           if(arr[i]>lowest)
 			{
 				lowest=arr[i];
 			}
+			}
 		}
-		System.out.println(lowest);
+		System.out.println("even heights:"+lowest);
 	}
 
 	
