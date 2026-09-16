@@ -25,6 +25,7 @@ public class array_program13 {
 		{
 			tlowest=arr[i];
 		}
+		
 	}
  
 	System.out.println("first lowest:"+heights);
