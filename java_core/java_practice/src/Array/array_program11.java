@@ -12,12 +12,11 @@ public class array_program11 {
         	  if(i%2==0)
               {
             	  System.out.println("even index:"+arr[i]);
-            	  arr[i]=even;
             	  }
         	  boolean flag=false;
         	  for(int j=2;j<arr[i];j++)
         	  {
-        		  if(even%j==0)
+        		  if(arr[i]%j==0)
         		  {
         			  flag=true;
         			  break;
@@ -25,7 +24,11 @@ public class array_program11 {
         	  }
         	  if(!flag)
         	  {
-        		  System.out.println("prime:"+even);
+        		  System.out.println("prime even index:"+arr[i]);
+        	  }
+        	  else
+        	  {
+        		  System.out.println("normal peime index:"+arr[i]);
         	  }
 		}
 	
