@@ -12,7 +12,7 @@ public class second_largest_odd {
 		if(arr[i]%2!=0)
 		{
 			System.out.println("ood number array:"+arr[i]);
-		}
+		
 	
 		if(arr[i]<heights)
 		{
@@ -22,6 +22,7 @@ public class second_largest_odd {
 		if(arr[i]!=heights&&arr[i]<slowest)
 		{
 			slowest=arr[i];
+		}
 		}
 	}
 
