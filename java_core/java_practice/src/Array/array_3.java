@@ -14,8 +14,14 @@ public class array_3 {
     	}
     }
     
-    System.out.println(arr[1][2]);
-   
+    for(int i=0;i<3;i++)
+    {
+    	for(int j=0;j<arr[i].length;j++)
+    	{
+    		System.out.print(arr[i][j] +" ");
+    	}
+    	System.out.println();
+    }
     
 	}
 
