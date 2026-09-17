@@ -10,7 +10,7 @@ public class array_4 {
 		{
 			for(int j=0;j<4;j++)
 			{
-				arr[i][j]=10;
+				arr[i][j]=20;
 			}
 		}
 		for(int i=0;i<3;i++)
