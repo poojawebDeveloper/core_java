@@ -19,8 +19,6 @@ public class sum_col {
 	    	 {
 	    		 System.out.print(arr[i][j]+" ");
 	    		 sum=sum+arr[i][j];
-		    	 //System.out.println("col sum:"+sum);
-
 	    	 }
 	    	 System.out.println();
 	    	 System.out.println("col sum:"+sum);
