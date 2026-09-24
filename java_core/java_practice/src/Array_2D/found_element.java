@@ -16,33 +16,38 @@ public class found_element {
       {
     	  for(int j=0;j<arr[i].length;j++)
     	  {
-    		 /* if(i!=j)
+    		  if(i!=j)
     		  {
     			  if(arr[i][j]==0)
     			  {
     				 zero_check=true;
     				 break;
-    			  }*/
+    			  }
     		  
-    		  if(i==j)
+    		/*  if(i==j)
     		  {
+    			  if(arr[i][j]!=1)
+    			  {
     			  same_digonal_value=false;
+    			  }
     			  break;
-    		  }
+    		  }*/
     		  else
     		  {
-    			  if(arr[i][j]==0)
+    			  if(arr[i][j]!=1)
     			  {
-    				  zero_check=false;
+    				  same_digonal_value=true;
     				  break;
     			  }
     		  }
     	  }
     		  
     	  }
+      }
+     
       if(zero_check&&same_digonal_value)
       {
-    	  System.out.println("scaller matrix");
+    	  System.out.println("scaler matrix");
       }
       else
     	  
@@ -53,5 +58,6 @@ public class found_element {
       }
       
 	}
+
 
 

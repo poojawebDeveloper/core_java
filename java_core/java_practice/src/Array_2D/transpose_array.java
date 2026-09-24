@@ -10,22 +10,15 @@ public class transpose_array {
     		
     };
     
-   /* for(int i=0;i<arr.length;i++)
+   for(int i=0;i<3;i++)
     {
-    	for(int j=0;j<arr[i].length;j++)
+    	for(int j=0;j<2;j++)
     	{
-    		System.out.print(arr[i][j]+" ");
-    	}
-    	System.out.println();
-    }*/
-    for(int i=0;i<=3;i++)
-    {
-    	for(int j=0;j<=2;j++)
-    	{
-    		System.out.print(arr[i][j]+" ");
+    		System.out.print(arr[j][i]+" ");
     	}
     	System.out.println();
     }
-	}
+    
 
+}
 }
