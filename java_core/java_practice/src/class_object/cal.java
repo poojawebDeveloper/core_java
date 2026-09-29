@@ -15,6 +15,7 @@ public class cal {
 	public void mul(int x,int y)
 	{
 		System.out.println(x*y);
+	
 	}
 	public void div(int x,int y)
 	{

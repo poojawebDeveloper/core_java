@@ -6,11 +6,15 @@ public class maths {
 		
 		calculator cal = new calculator();
 		
-		cal.add(20, 30);
+		int num=cal.add(20, 30);
 		
-		cal.add(70,80);
+		int num2=cal.add(70,80);
 		
 		cal.sub(40, 20);
+		
+		System.out.println(num);
+		System.out.println(num2);
+
 
 
 	}
@@ -19,9 +23,9 @@ public class maths {
 
 class calculator
 {
-	public void add(int x,int y)
+	public int add(int x,int y)
 	{
-		System.out.println(x+y);
+		return x+y;
 	}
 	public void sub(int x,int y)
 	{

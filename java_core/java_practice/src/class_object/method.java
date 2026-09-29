@@ -11,6 +11,10 @@ public class method {
 		
 		System.out.println(num);
 		
+		student s1=new student();
+		s1.display();
+		s1.get();
+		
 
 	}
 
@@ -24,5 +28,16 @@ class Car
 	public int trip()
 	{
 		return 100;
+	}
+}
+class student
+{
+	public void get()
+	{
+		System.out.println("student");
+	}
+	public void display()
+	{
+		System.out.println("student display");
 	}
 }
