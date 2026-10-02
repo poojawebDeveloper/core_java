@@ -9,21 +9,18 @@ public class each_rowlargest {
 			    {99, 50, 60},
 			    {70, 100, 90}
 			};
-		int lowest=0;
+		
+		
 		for(int i=0;i<arr.length;i++)
 		{
+			int sum=0;
 			for(int j=0;j<arr.length;j++)
 			{
-				
-				if(arr[i][j]>lowest)
-				{
-					lowest=arr[i][j];
-				}
+				sum=sum+arr[i][j];
 			}
-			System.out.println(lowest);
-
+			System.out.println(sum/arr[i].length);
 		}
-		//System.out.println(lowest);
+		//System.out.println(sum);
 	}
 
 }
