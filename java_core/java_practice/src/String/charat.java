@@ -7,7 +7,7 @@ public class charat {
 		String s ="hello word";
 		
 		
-		System.out.println(s.charAt(7));
+		System.out.println(s.charAt(7));//the charAt method display specific index word of string
 		System.out.println(s.charAt(2));
 		System.out.println(s.charAt(3));
 		
