@@ -11,9 +11,9 @@ public class concat5 {
 		
 		System.out.println(s1.concat(s2));//first way
 		
-		String result=s1.concat(s2);
+		String result=s1.concat(s2);//second way wsing create third variable
 		
-	System.out.println(result);
+	      System.out.println(result);
 	}
 
 }

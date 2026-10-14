@@ -8,7 +8,7 @@ public class contains18 {
     
     System.out.println(s1.contains("come"));
     
-    boolean result=s1.contains("wel");
+    boolean result=s1.contains("wel");//boolean is return type because rturn value for true false
     System.out.println(result);
     
 	}
